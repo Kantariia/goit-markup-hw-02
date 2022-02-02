@@ -1,0 +1,50 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --accent-color: #212121;
+}
+
+html {
+  max-width: 1600px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+.text {
+  color: var(--accent-color);
+  font-weight: 400;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
+.logo_color {
+  color: #2196f3;
+}
+
+.header {
+  display: flex;
+  max-width: 1170px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #ececec;
+}
+
+.navigation-links {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
