@@ -64,17 +64,23 @@ body {
 }
 
 .header {
+  width: 1600px;
+  height: 80px;
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--background-color-light);
   border-bottom: 1px solid #ececec;
 }
 
 .navigation {
-  
+  padding-left: 93px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
+  margin: 32px 331px 32px 454px;
 }
 .navigation-link {
   color: var(--primary-text-color);
@@ -130,6 +136,10 @@ body {
 
 .hero {
   background-color: var(--background-color-dark);
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
 
 .button-hero-item {
@@ -140,6 +150,10 @@ body {
   border-radius: 4px;
   border: none;
   position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   cursor: pointer;
 }
 
@@ -168,10 +182,19 @@ body {
 
 .about {
   background-color: var(--background-color-secondary);
+  width: 1600px;
+  height: 769px;
+  left: 0px;
+  top: 80px;
 }
 
 .about_team {
   background-color: var(--background-color-third-section);
+  /* position: absolute; */
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
 }
 
 .team-item {
@@ -232,6 +255,10 @@ body {
 .projects-ltem {
   display: inline;
   position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 260px;
   background: var(--background-color-light);
   border: 1px solid #eee;
   box-sizing: border-box;
